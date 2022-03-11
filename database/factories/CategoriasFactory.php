@@ -14,7 +14,7 @@ class CategoriasFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'Description'=>$this->faker->name,
         ];
     }
 }

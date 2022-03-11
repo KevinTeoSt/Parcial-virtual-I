@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Alumnos;
 use Illuminate\Database\Seeder;
 
 class AlumnosSeeder extends Seeder
@@ -13,6 +14,6 @@ class AlumnosSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Alumnos::factory(20)->create();
     }
 }
